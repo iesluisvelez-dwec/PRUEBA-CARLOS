@@ -100,6 +100,8 @@
                     break;
                     case 'Betis FC':
                     equipoLi.setAttribute("src","imagenes/Betis.png");
+                    case 'Sevilla FC':
+                    equipoLi.setAttribute("src","imagenes/Sevilla.png");
                     break;
                 default:
                     console.log(`No se localiza la imagen del equipo ${e.target.textcontent}`);
